@@ -1,0 +1,50 @@
+.header1 {
+    width: 80%;
+    margin: auto;
+    height: 130px;
+    display: block;
+    border-radius: 25px;
+    background-color: rgb(236, 236, 236);
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.h3 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 15px;
+    margin-top: 33px;
+}
+
+.li {
+    color: black;
+    font-size: 25px;
+    /* мб жирный шрифт */
+    font-weight: 600;
+    /* Убрать нижнее подчеркивание и тд. */
+    text-decoration: none;
+    /* Плавность */
+    transition: ease-out 0.3s;
+}
+
+.li:hover {
+    /* движение навигационных кнопок */
+    padding: 5px 10px 5px 10px;
+    /* цвет текста при наведении курсора */
+    color: rgb(231, 174, 17);
+    }
+    
+    
